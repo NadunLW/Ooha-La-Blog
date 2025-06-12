@@ -1,0 +1,47 @@
+baseURL: https://nadsblog.org/
+languageCode: en-us
+title: Nad's Blog
+theme: ["PaperMod"]
+
+menu:
+  main:
+    - name: Posts
+      url: /
+      weight: 1
+    - name: Archive
+      url: archives
+      weight: 5
+    - name: Search
+      url: search/
+      weight: 10
+    - name: Tags
+      url: tags/
+      weight: 10
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  
+  ShowReadingTime: true
+  ShowBreadCrumbs: true
+  homeInfoParams:
+    Title: 👋 Hola, welcome to Nad'sBlog
+    Content: >
+      Hi, this is Dame(Nadun). I'm documenting my journey in this evolving IT landscape(2025).
+
+      I really want to get better at tech and blogging, so unless it's mentioned LLMs will not be used for now 🥸.
+
+  socialIcons:
+    - name: github
+      title: My Github Repo
+      url:
+    - name: linkedin
+      title: Its linkedin
+      url:
+    - name: x
+      title: Its twitter
+      url:
