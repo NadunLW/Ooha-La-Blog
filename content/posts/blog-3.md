@@ -1,3 +1,0 @@
-## Introduction
-
-TEsting testin testing
